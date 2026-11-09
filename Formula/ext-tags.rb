@@ -1,26 +1,26 @@
 class ExtTags < Formula
   desc "Write and import foobar2000 external .tag files"
   homepage "https://github.com/daregod/ext-tags"
-  version "0.14.1"
+  version "0.15.0"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/daregod/ext-tags/releases/download/v0.14.1/ext-tags_0.14.1_darwin_arm64.tar.gz"
-      sha256 "355199874ed7a691923ac29076a8acff5b7d437aaee266d36df1c743b5b688c1"
+      url "https://github.com/daregod/ext-tags/releases/download/v0.15.0/ext-tags_0.15.0_darwin_arm64.tar.gz"
+      sha256 "e4daf3a2bb4d3614e0f339f90a664eba9044c582165a71f2b6843dcf0b67b955"
     else
-      url "https://github.com/daregod/ext-tags/releases/download/v0.14.1/ext-tags_0.14.1_darwin_amd64.tar.gz"
-      sha256 "7c833db063fa3a698e287e2a1750dd55ca05a74a15fad6b99252c284e716d1e9"
+      url "https://github.com/daregod/ext-tags/releases/download/v0.15.0/ext-tags_0.15.0_darwin_amd64.tar.gz"
+      sha256 "27fb9a42c04f53af9fb09b7c9155717d7dbc60386a4c498d6eeac1fb891cff54"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/daregod/ext-tags/releases/download/v0.14.1/ext-tags_0.14.1_linux_arm64.tar.gz"
-      sha256 "0fa0c828cea59fa1fc4eeb650eb9c5f3acf9e2696885db8cc566aa7e9706a7a2"
+      url "https://github.com/daregod/ext-tags/releases/download/v0.15.0/ext-tags_0.15.0_linux_arm64.tar.gz"
+      sha256 "fe1eb332cff1bd64eb81b5b6e185a04b87c00f54ad87e6e29feb5959223cc3b4"
     else
-      url "https://github.com/daregod/ext-tags/releases/download/v0.14.1/ext-tags_0.14.1_linux_amd64.tar.gz"
-      sha256 "839b2b542ef9ebd808a933b3aea98a07d33d58486d48ebad33bca8dfaa69f6dd"
+      url "https://github.com/daregod/ext-tags/releases/download/v0.15.0/ext-tags_0.15.0_linux_amd64.tar.gz"
+      sha256 "dc0dba9e78cc39d8d7f4ef61fd761efdc20987931c0e94597514503955daa404"
     end
   end
 
